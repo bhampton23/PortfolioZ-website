@@ -22,7 +22,7 @@ body {
 
 h1 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: var(--font-weight);
   color: black;
 }
 
@@ -146,8 +146,18 @@ button:focus,
 .grid {
   display: grid;
   grid-template-columns: 400px 400px;
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 300px 300px;
   grid-gap: 20px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 100px 100px;
+}
+
+.grid__item2 {
+  background-color: var(--gainsboro);
 }
 
 .grid__item {
@@ -225,3 +235,4 @@ button:focus,
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
