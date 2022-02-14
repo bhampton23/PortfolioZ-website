@@ -93,7 +93,7 @@ button:hover, button:focus {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: var(--deep-sky-blue);
+  background-color: var(--dark-red);
   color: white;
   text-decoration: none;
   padding: 10px;
