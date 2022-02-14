@@ -87,7 +87,7 @@ button:hover, button:focus {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #00bfff;
+  background-color: darkred;
   color: white;
   text-decoration: none;
   padding: 10px;
