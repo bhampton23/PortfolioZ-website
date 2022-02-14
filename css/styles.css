@@ -4,7 +4,7 @@
   --gainsboro:  #dcdcdc;
   --dark-red: #8b0000;
   --deep-sky-blue: #00bfff;
-  --font-weight: 700px;
+  --font-weight: 700;
   --light-blue: #f0f8ff;
   --dark-slate-grey: #2f4f4f;
   --cornsilk: #FFF8DC;
@@ -30,10 +30,6 @@ body {
 }
 
 hr { display: block;
-  margin-before: 0.5em;
-  margin-after: 0.5em;
-  margin-start: auto; 
-  margin-end: auto; 
   overflow: hidden; 
   border-style: inset;
   border-width: 1px;}
