@@ -5,6 +5,10 @@
   --dark-red: #8b0000;
   --deep-sky-blue: #00bfff;
   --font-weight: 700px;
+  --light-blue: #f0f8ff;
+  --dark-slate-grey: #2f4f4f;
+  --cornsilk: #FFF8DC;
+  --white: #fff;
 }
 
 a {
@@ -19,11 +23,28 @@ body {
   color: var(--primary-color);
 }
 
+.mysection {
+  background-color: var(--dark-slate-grey);
+  width: 100%;
+  height: 200px;
+}
+
+hr { display: block;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
+  margin-start: auto; 
+  margin-end: auto; 
+  overflow: hidden; 
+  border-style: inset;
+  border-width: 1px;}
 
 h1 {
   font-size: 30px;
   font-weight: var(--font-weight);
   color: black;
+  margin-right: 45%;
+  margin-left: 45%;
+  display: block;
 }
 
 h2 {
@@ -36,12 +57,16 @@ h3 {
   font-weight: var(--font-weight);
 }
 
+.profile-item:visited {
+  color: var(--dark-slate-grey);
+}
+
 a {
-  color: var(--primary-color);
+  color: var(--dark-red);
 }
 
 a:visited {
-  color: var(--dark-red);
+  color: var(--white);
 }
 
 a:hover, a:focus {
@@ -107,7 +132,15 @@ button:focus,
 
 .profile {
   max-width: 700px;
-  margin: 0 auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.profile__contact {
+  display: block;
+  margin-left: 44%;
+  margin-right: 44%;
 }
 
 * {
@@ -123,35 +156,44 @@ button:focus,
 
 .logo2 {
     float: left;
-    max-width: 350px;
+    max-width: 200px;
+    max-height: 200px;
     clear: both;
     display: flex;
-    margin-right: 40px;
-    margin-left: 25%;
-    border-radius: 50%;
+    margin-right: 0px;
+    margin-left: 10%;
+    border-radius: 0%;
 }  
 
 .page-header {
-    margin-left: 20%;
+    margin-left: 5%;
+    margin-right: 100%;
     max-width: 300px;
     display: flex;
     flex: 1 1 100px;
+    background-color: var(--dark-slate-grey);
 }
 
 .page-header__item {
-  margin-top: 35%;
-  margin-left: 80%;
+  right: 150px;
+  margin-top: 30px;
+  margin-left: 1400px;
+  float: right;
+  color: var(--cornsilk);
+  background-color: var(--dark-slate-grey);
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 400px 400px;
-  grid-template-rows: 300px 300px;
+  grid-template-columns: 375px 375px;
+  grid-template-rows: 250px 250px;
   grid-gap: 20px;
 }
 
 .grid2 {
   display: grid;
+  margin-right: auto;
+  margin-left: auto;
   grid-template-columns: 600px 600px;
   grid-template-rows: 100px 100px;
 }
